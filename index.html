@@ -6,6 +6,77 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Чтение китайских книг</title>
   <style>
+         body {
+  background-color: #FAFAFA;
+  color: #232323;
+  font-family: Noto Sans SC Arial, sans-serif;
+}
+
+a, .accent, .link {
+  color: #0074D9; /* акцентные ссылки */
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover, .accent:hover, .link:hover {
+  color: #13A069;
+}
+
+button, .btn {
+  background-color: #13A069;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover, .btn:hover {
+  background-color: #15c77d;
+}
+
+.cta, .btn-primary {
+  background-color: #E63946; /* важные кнопки */
+  color: #fff !important;
+}
+
+.navbar, .header, header {
+  background-color: #ffffffb3;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.card, .block, .book-item {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #00000008;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Декоративные элементы */
+.decor, .pastel-bg {
+  background-color: #EEF6F5;
+}
+
+/* Для выделения текста */
+.highlight {
+  background-color: #FFF3CD; /* пастельный желтый */
+  color: #232323;
+}
+
+/* Если есть раздел поиска/инпуты: */
+input, textarea {
+  border: 1px solid #cccccc;
+  background-color: #F8F9FA;
+  color: #232323;
+}
+
+/* Для темных тем/ночного режима (если есть): */
+body.night-mode {
+  background-color: #232323;
+  color: #FAFAFA;
+}
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -155,8 +226,6 @@
       }
     }
   </style>
-</head>
-<body>
   <div class="header">
     Чтение китайских книг онлайн
     <br /><span style="font-size: 14px; color: #ffe94f;">Учим китайский с переводом</span>
@@ -210,77 +279,6 @@
     <div class="nav-buttons">
       <button onclick="alert('Предыдущее стихотворение')">Предыдущее</button>
       <button onclick="alert('Следующее стихотворение')">Следующее</button> 
-      body {
-  background-color: #FAFAFA;
-  color: #232323;
-  font-family: Noto Sans SC Arial, sans-serif;
-}
-
-a, .accent, .link {
-  color: #0074D9; /* акцентные ссылки */
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-a:hover, .accent:hover, .link:hover {
-  color: #13A069;
-}
-
-button, .btn {
-  background-color: #13A069;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-button:hover, .btn:hover {
-  background-color: #15c77d;
-}
-
-.cta, .btn-primary {
-  background-color: #E63946; /* важные кнопки */
-  color: #fff !important;
-}
-
-.navbar, .header, header {
-  background-color: #ffffffb3;
-  border-bottom: 1px solid #eaeaea;
-}
-
-.card, .block, .book-item {
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px #00000008;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-/* Декоративные элементы */
-.decor, .pastel-bg {
-  background-color: #EEF6F5;
-}
-
-/* Для выделения текста */
-.highlight {
-  background-color: #FFF3CD; /* пастельный желтый */
-  color: #232323;
-}
-
-/* Если есть раздел поиска/инпуты: */
-input, textarea {
-  border: 1px solid #cccccc;
-  background-color: #F8F9FA;
-  color: #232323;
-}
-
-/* Для темных тем/ночного режима (если есть): */
-body.night-mode {
-  background-color: #232323;
-  color: #FAFAFA;
-}
     </div>
   </div>
 </body>
